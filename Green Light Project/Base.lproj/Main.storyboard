@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -37,10 +37,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NCu-zz-3OU">
-                                <rect key="frame" x="34" y="743" width="52" height="43"/>
+                                <rect key="frame" x="34" y="743" width="73" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button">
-                                    <string key="image">kisspng-clip-art-computer-icons-house-vector-graphics-home-ip-svg-png-icon-free-download-23-593-onlinewe-5b74fab11925d7.027784471534393009103</string>
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="green light" translatesAutoresizingMaskIntoConstraints="NO" id="AyH-Ei-zN2">
@@ -64,10 +64,10 @@
             </objects>
             <point key="canvasLocation" x="-623.1884057971015" y="-557.14285714285711"/>
         </scene>
-        <!--View Controller-->
+        <!--More Info View Controller-->
         <scene sceneID="fe5-uJ-Rwr">
             <objects>
-                <viewController id="GPD-BH-Ar0" sceneMemberID="viewController">
+                <viewController id="GPD-BH-Ar0" customClass="MoreInfoViewController" customModule="Green_Light_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5MH-Tt-eFF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -120,10 +120,10 @@
             </objects>
             <point key="canvasLocation" x="250.72463768115944" y="-557.14285714285711"/>
         </scene>
-        <!--View Controller-->
+        <!--Depression View Controller-->
         <scene sceneID="f4V-qU-wsB">
             <objects>
-                <viewController id="7U3-zL-TAU" sceneMemberID="viewController">
+                <viewController id="7U3-zL-TAU" customClass="DepressionViewController" customModule="Green_Light_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zW9-BD-e0o">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -146,10 +146,10 @@
             </objects>
             <point key="canvasLocation" x="1148" y="-557"/>
         </scene>
-        <!--View Controller-->
+        <!--Question Answer View Controller-->
         <scene sceneID="1NS-Pr-Rgw">
             <objects>
-                <viewController id="ngL-xL-o4q" sceneMemberID="viewController">
+                <viewController id="ngL-xL-o4q" customClass="QuestionAnswerViewController" customModule="Green_Light_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PIy-Sh-2qG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -169,10 +169,10 @@
             </objects>
             <point key="canvasLocation" x="-623" y="131"/>
         </scene>
-        <!--View Controller-->
+        <!--Anxiety View Controller-->
         <scene sceneID="vw4-SL-Any">
             <objects>
-                <viewController id="C7e-ck-8Ef" sceneMemberID="viewController">
+                <viewController id="C7e-ck-8Ef" customClass="AnxietyViewController" customModule="Green_Light_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K3w-h0-bvo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -201,9 +201,6 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="green light" width="222" height="346"/>
-        <image width="980" height="866">
-            <string key="name">kisspng-clip-art-computer-icons-house-vector-graphics-home-ip-svg-png-icon-free-download-23-593-onlinewe-5b74fab11925d7.027784471534393009103</string>
-        </image>
         <image name="kisspng-email-computer-icons-5ae30d9c20d491.8393865015248295961345" width="980" height="980"/>
         <image name="pngegg" width="640" height="498"/>
         <image name="pngguru.com (1)" width="588" height="594"/>

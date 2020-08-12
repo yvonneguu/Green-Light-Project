@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6569257E24E388540085D0A9 /* QuestionAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569257D24E388540085D0A9 /* QuestionAnswerViewController.swift */; };
+		6569258024E3887D0085D0A9 /* MoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569257F24E3887D0085D0A9 /* MoreInfoViewController.swift */; };
+		6569258224E3888D0085D0A9 /* DepressionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569258124E3888D0085D0A9 /* DepressionViewController.swift */; };
+		6569258424E3889B0085D0A9 /* AnxietyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569258324E3889B0085D0A9 /* AnxietyViewController.swift */; };
 		E9E76DAF24E349C600E506AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E76DAE24E349C600E506AF /* AppDelegate.swift */; };
 		E9E76DB124E349C600E506AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E76DB024E349C600E506AF /* SceneDelegate.swift */; };
 		E9E76DB324E349C600E506AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E76DB224E349C600E506AF /* ViewController.swift */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6569257D24E388540085D0A9 /* QuestionAnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionAnswerViewController.swift; sourceTree = "<group>"; };
+		6569257F24E3887D0085D0A9 /* MoreInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoViewController.swift; sourceTree = "<group>"; };
+		6569258124E3888D0085D0A9 /* DepressionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepressionViewController.swift; sourceTree = "<group>"; };
+		6569258324E3889B0085D0A9 /* AnxietyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnxietyViewController.swift; sourceTree = "<group>"; };
 		E9E76DAB24E349C600E506AF /* Green Light Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Green Light Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E76DAE24E349C600E506AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9E76DB024E349C600E506AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +113,10 @@
 				E9E76DB024E349C600E506AF /* SceneDelegate.swift */,
 				E9E76DB224E349C600E506AF /* ViewController.swift */,
 				E9E76DB424E349C600E506AF /* Main.storyboard */,
+				6569258124E3888D0085D0A9 /* DepressionViewController.swift */,
+				6569258324E3889B0085D0A9 /* AnxietyViewController.swift */,
+				6569257F24E3887D0085D0A9 /* MoreInfoViewController.swift */,
+				6569257D24E388540085D0A9 /* QuestionAnswerViewController.swift */,
 				E9E76DBA24E349C900E506AF /* Assets.xcassets */,
 				E9E76DBC24E349C900E506AF /* LaunchScreen.storyboard */,
 				E9E76DBF24E349C900E506AF /* Info.plist */,
@@ -263,9 +275,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9E76DB924E349C600E506AF /* Green_Light_Project.xcdatamodeld in Sources */,
+				6569257E24E388540085D0A9 /* QuestionAnswerViewController.swift in Sources */,
+				6569258224E3888D0085D0A9 /* DepressionViewController.swift in Sources */,
 				E9E76DB324E349C600E506AF /* ViewController.swift in Sources */,
+				6569258024E3887D0085D0A9 /* MoreInfoViewController.swift in Sources */,
 				E9E76DAF24E349C600E506AF /* AppDelegate.swift in Sources */,
 				E9E76DB124E349C600E506AF /* SceneDelegate.swift in Sources */,
+				6569258424E3889B0085D0A9 /* AnxietyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
