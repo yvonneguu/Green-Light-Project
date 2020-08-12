@@ -24,7 +24,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.70980392156862748" green="0.92941176470588238" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="kZy-BF-7VJ"/>
                     </view>
                     <navigationItem key="navigationItem" id="wx1-f4-Av3"/>
@@ -41,7 +41,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2020-08-12 at 1.23.20 PM" translatesAutoresizingMaskIntoConstraints="NO" id="4T4-f2-MaB">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2020-08-12 at 3.27.58 PM" translatesAutoresizingMaskIntoConstraints="NO" id="4T4-f2-MaB">
                                 <rect key="frame" x="0.0" y="38" width="414" height="783"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -93,46 +93,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nDS-IZ-S6I">
-                                <rect key="frame" x="44" y="34" width="34" height="30"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2020-08-12 at 4.02.01 PM" translatesAutoresizingMaskIntoConstraints="NO" id="qDh-iw-Uac">
+                                <rect key="frame" x="0.0" y="20" width="414" height="804"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="ZCE-4o-OD5"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Anxiety" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6qb-IY-72x">
-                                <rect key="frame" x="179" y="422" width="78" height="29"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lcw-TT-n7r">
+                                <rect key="frame" x="312" y="752" width="82" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRV-h3-XrV">
-                                <rect key="frame" x="304" y="372" width="65" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="More Info"/>
                                 <connections>
-                                    <segue destination="7U3-zL-TAU" kind="show" id="3qz-9u-PSJ"/>
+                                    <segue destination="C7e-ck-8Ef" kind="show" id="4Iy-YP-qzV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tn2-UI-bcP">
-                                <rect key="frame" x="314" y="766" width="65" height="76"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="88K-RL-yB4">
+                                <rect key="frame" x="312" y="345" width="82" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="More Info"/>
                                 <connections>
-                                    <segue destination="C7e-ck-8Ef" kind="show" id="ttB-mr-lFW"/>
+                                    <segue destination="7U3-zL-TAU" kind="show" id="0yz-JX-STD"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Depression" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I13-y7-eNy">
-                                <rect key="frame" x="149" y="69" width="117" height="29"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hWv-eH-ePn">
+                                <rect key="frame" x="0.0" y="0.0" width="52" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <state key="normal" image="arrowshape.turn.up.left.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="KQw-Wi-XWz"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.89984957467802129" green="1" blue="0.84998541871920041" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.70980392156862748" green="0.92941176470588238" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="Q5s-Cn-T77"/>
                     </view>
                     <navigationItem key="navigationItem" id="H0a-Jk-xGF"/>
@@ -165,7 +157,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.89803921568627454" green="1" blue="0.85098039215686272" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.70980392156862748" green="0.92941176470588238" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="LEH-33-FkB"/>
                     </view>
                     <navigationItem key="navigationItem" id="yYf-Lb-7Vn"/>
@@ -198,7 +190,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.89803921568627454" green="1" blue="0.85098039215686272" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.70980392156862748" green="0.92941176470588238" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="QSJ-ZB-SZp"/>
                     </view>
                     <navigationItem key="navigationItem" id="BXF-88-AgH"/>
@@ -231,7 +223,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.89803921568627454" green="1" blue="0.85098039215686272" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.70980392156862748" green="0.92941176470588238" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="8cl-QD-ewy"/>
                     </view>
                     <navigationItem key="navigationItem" id="1N0-e1-cMB"/>
@@ -246,6 +238,8 @@
         <segue reference="8Pb-qP-JRM"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="Screen Shot 2020-08-12 at 1.23.20 PM" width="404" height="798"/>
+        <image name="Screen Shot 2020-08-12 at 3.27.58 PM" width="476" height="960"/>
+        <image name="Screen Shot 2020-08-12 at 4.02.01 PM" width="480" height="950"/>
+        <image name="arrowshape.turn.up.left.fill" catalog="system" width="128" height="106"/>
     </resources>
 </document>
