@@ -10,6 +10,10 @@ import UIKit
 
 class QuestionAnswerViewController: UIViewController {
 
+    @IBAction func Button(_ sender: Any) {
+        if let url = URL(string: "https://www.hackingwithswift.com") {     UIApplication.shared.open(url) }
+
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
