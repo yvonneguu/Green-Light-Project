@@ -268,12 +268,51 @@
                                 <rect key="frame" x="0.0" y="20" width="414" height="765"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What are some hotlines?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XS0-Xr-e8V">
+                                <rect key="frame" x="12" y="294" width="189" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QIc-Fs-BV7">
                                 <rect key="frame" x="33" y="24" width="21" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="arrowshape.turn.up.left.fill" catalog="system"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="RIn-3Y-6f6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="618-H2-G3v">
+                                <rect key="frame" x="33" y="323" width="196" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Depression-Crisis Text Lines"/>
+                                <connections>
+                                    <action selector="DCrisisButton:" destination="ngL-xL-o4q" eventType="touchUpInside" id="fUw-de-EqO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VMw-K4-mru">
+                                <rect key="frame" x="33" y="373" width="254" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Suicide Prevention Resources Center"/>
+                                <connections>
+                                    <action selector="SprcButton:" destination="ngL-xL-o4q" eventType="touchUpInside" id="eP1-jT-DNy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="32s-by-bkg">
+                                <rect key="frame" x="33" y="398" width="169" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Anxiety-Crisis Text Lines"/>
+                                <connections>
+                                    <action selector="Actl:" destination="ngL-xL-o4q" eventType="touchUpInside" id="W6b-0F-vzt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ljg-dr-T5a">
+                                <rect key="frame" x="33" y="349" width="250" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="National Suicide Prevention Life Line"/>
+                                <connections>
+                                    <action selector="Nspll:" destination="ngL-xL-o4q" eventType="touchUpInside" id="nwo-x7-D0n"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -515,10 +554,10 @@
             </objects>
             <point key="canvasLocation" x="1147.8260869565217" y="105.80357142857143"/>
         </scene>
-        <!--View Controller-->
+        <!--Youth View Controller-->
         <scene sceneID="gkK-Ty-zOD">
             <objects>
-                <viewController id="JvM-Gi-Bg3" sceneMemberID="viewController">
+                <viewController id="JvM-Gi-Bg3" customClass="AYouthViewController" customModule="Green_Light_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="m2M-M2-yC3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -540,10 +579,10 @@
             </objects>
             <point key="canvasLocation" x="251" y="192"/>
         </scene>
-        <!--View Controller-->
+        <!--VsAD View Controller-->
         <scene sceneID="7Oh-dm-69d">
             <objects>
-                <viewController id="wJW-5E-D29" sceneMemberID="viewController">
+                <viewController id="wJW-5E-D29" customClass="AVsADViewController" customModule="Green_Light_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yUK-wu-EOC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -565,10 +604,10 @@
             </objects>
             <point key="canvasLocation" x="1080" y="832"/>
         </scene>
-        <!--View Controller-->
+        <!--Risk Factors View Controller-->
         <scene sceneID="Yc1-Uy-Po7">
             <objects>
-                <viewController id="koc-aq-Idi" sceneMemberID="viewController">
+                <viewController id="koc-aq-Idi" customClass="ARiskFactorsViewController" customModule="Green_Light_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KLH-d0-U6W">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -590,10 +629,10 @@
             </objects>
             <point key="canvasLocation" x="352" y="1526"/>
         </scene>
-        <!--View Controller-->
+        <!--Treatments Therapies View Controller-->
         <scene sceneID="O0s-fQ-RSV">
             <objects>
-                <viewController id="ho6-gj-ISP" sceneMemberID="viewController">
+                <viewController id="ho6-gj-ISP" customClass="ATreatmentsTherapiesViewController" customModule="Green_Light_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2o8-tt-5hk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -617,8 +656,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="4nu-Yc-p9J"/>
-        <segue reference="718-qs-Hcg"/>
+        <segue reference="tfO-5k-hK9"/>
+        <segue reference="b1v-8o-BdQ"/>
         <segue reference="RIn-3Y-6f6"/>
     </inferredMetricsTieBreakers>
     <resources>

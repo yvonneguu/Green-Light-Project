@@ -15,6 +15,11 @@
 		6569258024E3887D0085D0A9 /* MoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569257F24E3887D0085D0A9 /* MoreInfoViewController.swift */; };
 		6569258224E3888D0085D0A9 /* DepressionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569258124E3888D0085D0A9 /* DepressionViewController.swift */; };
 		6569258424E3889B0085D0A9 /* AnxietyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569258324E3889B0085D0A9 /* AnxietyViewController.swift */; };
+		65CF832D24E5DECB00443B3D /* ATypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CF832C24E5DECB00443B3D /* ATypesViewController.swift */; };
+		65CF832F24E5DF1F00443B3D /* AYouthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CF832E24E5DF1F00443B3D /* AYouthViewController.swift */; };
+		65CF833124E5DF3A00443B3D /* AVsADViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CF833024E5DF3A00443B3D /* AVsADViewController.swift */; };
+		65CF833324E5DF4D00443B3D /* ARiskFactorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CF833224E5DF4D00443B3D /* ARiskFactorsViewController.swift */; };
+		65CF833524E5DF6500443B3D /* ATreatmentsTherapiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CF833424E5DF6500443B3D /* ATreatmentsTherapiesViewController.swift */; };
 		E9E76DAF24E349C600E506AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E76DAE24E349C600E506AF /* AppDelegate.swift */; };
 		E9E76DB124E349C600E506AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E76DB024E349C600E506AF /* SceneDelegate.swift */; };
 		E9E76DB324E349C600E506AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E76DB224E349C600E506AF /* ViewController.swift */; };
@@ -52,6 +57,11 @@
 		6569257F24E3887D0085D0A9 /* MoreInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoViewController.swift; sourceTree = "<group>"; };
 		6569258124E3888D0085D0A9 /* DepressionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepressionViewController.swift; sourceTree = "<group>"; };
 		6569258324E3889B0085D0A9 /* AnxietyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnxietyViewController.swift; sourceTree = "<group>"; };
+		65CF832C24E5DECB00443B3D /* ATypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATypesViewController.swift; sourceTree = "<group>"; };
+		65CF832E24E5DF1F00443B3D /* AYouthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AYouthViewController.swift; sourceTree = "<group>"; };
+		65CF833024E5DF3A00443B3D /* AVsADViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVsADViewController.swift; sourceTree = "<group>"; };
+		65CF833224E5DF4D00443B3D /* ARiskFactorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARiskFactorsViewController.swift; sourceTree = "<group>"; };
+		65CF833424E5DF6500443B3D /* ATreatmentsTherapiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATreatmentsTherapiesViewController.swift; sourceTree = "<group>"; };
 		E9E76DAB24E349C600E506AF /* Green Light Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Green Light Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E76DAE24E349C600E506AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9E76DB024E349C600E506AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +111,11 @@
 				6522EBDA24E50773006A7B7E /* DSignsAndSymptomsViewController.swift */,
 				6522EBDC24E50784006A7B7E /* DRiskFactorsViewController.swift */,
 				6522EBDE24E5079D006A7B7E /* DTreatmentsAndTherapiesViewController.swift */,
+				65CF832C24E5DECB00443B3D /* ATypesViewController.swift */,
+				65CF832E24E5DF1F00443B3D /* AYouthViewController.swift */,
+				65CF833024E5DF3A00443B3D /* AVsADViewController.swift */,
+				65CF833224E5DF4D00443B3D /* ARiskFactorsViewController.swift */,
+				65CF833424E5DF6500443B3D /* ATreatmentsTherapiesViewController.swift */,
 				E9E76DAD24E349C600E506AF /* Green Light Project */,
 				E9E76DC724E349C900E506AF /* Green Light ProjectTests */,
 				E9E76DD224E349C900E506AF /* Green Light ProjectUITests */,
@@ -286,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65CF833524E5DF6500443B3D /* ATreatmentsTherapiesViewController.swift in Sources */,
 				6522EBDD24E50784006A7B7E /* DRiskFactorsViewController.swift in Sources */,
 				E9E76DB924E349C600E506AF /* Green_Light_Project.xcdatamodeld in Sources */,
 				6569257E24E388540085D0A9 /* QuestionAnswerViewController.swift in Sources */,
@@ -293,9 +309,13 @@
 				E9E76DB324E349C600E506AF /* ViewController.swift in Sources */,
 				6522EBDB24E50773006A7B7E /* DSignsAndSymptomsViewController.swift in Sources */,
 				6569258024E3887D0085D0A9 /* MoreInfoViewController.swift in Sources */,
+				65CF832D24E5DECB00443B3D /* ATypesViewController.swift in Sources */,
 				6522EBD924E50760006A7B7E /* DTypesViewController.swift in Sources */,
 				6522EBDF24E5079D006A7B7E /* DTreatmentsAndTherapiesViewController.swift in Sources */,
+				65CF832F24E5DF1F00443B3D /* AYouthViewController.swift in Sources */,
 				E9E76DAF24E349C600E506AF /* AppDelegate.swift in Sources */,
+				65CF833324E5DF4D00443B3D /* ARiskFactorsViewController.swift in Sources */,
+				65CF833124E5DF3A00443B3D /* AVsADViewController.swift in Sources */,
 				E9E76DB124E349C600E506AF /* SceneDelegate.swift in Sources */,
 				6569258424E3889B0085D0A9 /* AnxietyViewController.swift in Sources */,
 			);
@@ -472,6 +492,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Green Light Project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -489,6 +510,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Green Light Project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -507,7 +529,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Green Light ProjectTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -528,7 +550,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Green Light ProjectTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -548,6 +570,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Green Light ProjectUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -567,6 +590,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Green Light ProjectUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
