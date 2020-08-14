@@ -426,6 +426,23 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="826"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="613-cB-39U">
+                                <rect key="frame" x="13" y="248" width="371" height="123"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Many individuals are not aware of the differences between anxiety and anxiety disorders. Anxiety disorders are more severe than anxiety. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9e-2N-gyq">
+                                <rect key="frame" x="20" y="390" width="374" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">There are many types of anxiety, and they all show up in different ways. So, please consult a therapist or psychiastrist if you believe you have anxiety</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vVE-ro-yne">
                                 <rect key="frame" x="26" y="790" width="53" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -433,6 +450,14 @@
                                 <state key="normal" title="Home"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="FYF-Mg-9nt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WOO-dH-ZXd">
+                                <rect key="frame" x="20" y="20" width="21" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="arrowshape.turn.up.left.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="GPD-BH-Ar0" kind="show" id="b1v-8o-BdQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cY6-tJ-NPR">
@@ -443,22 +468,32 @@
                                     <segue destination="wJW-5E-D29" kind="show" id="gP8-wg-6j3"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcP-3p-Qdd">
-                                <rect key="frame" x="339" y="519" width="65" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NbK-SN-xQ6">
+                                <rect key="frame" x="13" y="503" width="367" height="147"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="More Info"/>
-                                <connections>
-                                    <segue destination="koc-aq-Idi" kind="show" id="A5E-oh-esq"/>
-                                </connections>
-                            </button>
+                                <string key="text">There are factors in one’s life that may cause one to develop signs or symptoms of anxiety disorders. Identifying that one has anxiety disorders early is beneficial as it will lessen the chances of worsening symptoms.
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5uv-ac-uEi">
-                                <rect key="frame" x="339" y="178" width="65" height="30"/>
+                                <rect key="frame" x="339" y="200" width="65" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="More Info"/>
                                 <connections>
                                     <segue destination="JvM-Gi-Bg3" kind="show" id="Tdq-Lj-tEp"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9YZ-Rl-7YS">
+                                <rect key="frame" x="13" y="121" width="374" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Anxiety is quite prominent in adolescents. However, guardians often dismiss such a circumstance claiming that feeling anxious is “normal” or that one is “thinking too much.” 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pt0-Kq-iLm">
                                 <rect key="frame" x="339" y="688" width="65" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -468,16 +503,16 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wEV-Po-g15">
-                                <rect key="frame" x="339" y="433" width="65" height="30"/>
+                                <rect key="frame" x="339" y="472" width="65" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="More Info"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WOO-dH-ZXd">
-                                <rect key="frame" x="20" y="20" width="21" height="22"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcP-3p-Qdd">
+                                <rect key="frame" x="349" y="594" width="65" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="arrowshape.turn.up.left.fill" catalog="system"/>
+                                <state key="normal" title="More Info"/>
                                 <connections>
-                                    <segue destination="GPD-BH-Ar0" kind="show" id="b1v-8o-BdQ"/>
+                                    <segue destination="koc-aq-Idi" kind="show" id="A5E-oh-esq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -488,7 +523,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dJW-EM-Dog" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1264" y="-557"/>
+            <point key="canvasLocation" x="1262.3188405797102" y="-557.14285714285711"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="nL6-xd-WHn">
@@ -540,6 +575,13 @@ Seasonal Affective Disorder
 -depressive state usually lifts during the summer
 </mutableString>
                                 <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7h-FF-ktf">
+                                <rect key="frame" x="30" y="234" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -749,6 +791,14 @@ WHAT CAN YOU DO?
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="770"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1DF-RF-mN5">
+                                <rect key="frame" x="23" y="221" width="371" height="181"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Anxiety in the youth is going to be hard to pinpoint becuase many parents can mistake it as just anxiety, isntead of an anxiety disorder * you can go back and look at the differences*</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kLh-cj-yQj">
                                 <rect key="frame" x="23" y="14" width="21" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -765,6 +815,18 @@ WHAT CAN YOU DO?
                                     <segue destination="BYZ-38-t0r" kind="show" id="QxW-gO-BKt"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lye-jz-klT">
+                                <rect key="frame" x="20" y="432" width="374" height="218"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">-15-30% of youth will have an anxiety disorder before adulthood, of which 8-10% of children have ADHD and 10-20% experience depression
+-these percentages are similar if not more than that of adults 
+-Anxiety can be misdiagnosed as it may show up as a form of body discomfort
+-most common: stomachache
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.71443134549999998" green="0.92974191900000003" blue="0.65525907279999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="DCD-XY-TcU"/>
@@ -773,7 +835,7 @@ WHAT CAN YOU DO?
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jp0-Cs-sNx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1264" y="75"/>
+            <point key="canvasLocation" x="1262.3188405797102" y="75"/>
         </scene>
         <!--VsAD View Controller-->
         <scene sceneID="7Oh-dm-69d">
@@ -803,6 +865,22 @@ WHAT CAN YOU DO?
                                     <segue destination="BYZ-38-t0r" kind="show" id="KJm-8Z-Ck7"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t4q-cn-2xB">
+                                <rect key="frame" x="23" y="270" width="371" height="484"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">-everyone experiences anxiety
+-ex: feeling awkward in a social situation, fear of danger, or  difficulty sleeping after an event
+-anxiety disorder: a condition in which one has significant distress and functional impairment
+-people with anxiety disorders avoid social interaction to prevent self-humiliation, experience panic attacks, and have recurring nightmares or flashbacks.
+-anxiety disorders peak during the ages of 5-7 and adolescence 
+-Children with anxiety disorders are more prone to having depression and substance disorders
+-diagnosing and treatment is essential to preventing further complications
+-prolonged anxiety disorders will lead to more severe symptoms 
+</mutableString>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.71443134549999998" green="0.92974191900000003" blue="0.65525907279999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="3rq-Ep-tXd"/>
@@ -811,7 +889,7 @@ WHAT CAN YOU DO?
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LEg-95-WnB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1899" y="75"/>
+            <point key="canvasLocation" x="1898.5507246376812" y="75"/>
         </scene>
         <!--Risk Factors View Controller-->
         <scene sceneID="Yc1-Uy-Po7">
@@ -825,20 +903,33 @@ WHAT CAN YOU DO?
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="770"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FWG-BG-b08">
-                                <rect key="frame" x="23" y="14" width="21" height="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qDF-oV-2y0">
+                                <rect key="frame" x="23" y="287" width="371" height="324"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="arrowshape.turn.up.left.fill" catalog="system"/>
-                                <connections>
-                                    <segue destination="C7e-ck-8Ef" kind="show" id="da3-V8-P03"/>
-                                </connections>
-                            </button>
+                                <string key="text">-highly heritable but not identifiable on DNA tests
+-if a family member has an anxiety disorder, there is a higher likelihood of you also having an anxiety disorder
+-pinpointing the origin of anxiety has proven to be complex, but most cases are caused by trauma leading to chronic acute stress
+-stress and family issues may also increase chances of having anxiety
+-depression, loneliness, and underlying physical illnesses may lead to anxiety 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EoI-Dm-lXS">
                                 <rect key="frame" x="23" y="778" width="41" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Home"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="HQ3-79-D0x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FWG-BG-b08">
+                                <rect key="frame" x="23" y="20" width="21" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="arrowshape.turn.up.left.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="C7e-ck-8Ef" kind="show" id="da3-V8-P03"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -849,7 +940,7 @@ WHAT CAN YOU DO?
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6eI-b4-eSE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2522" y="-1187"/>
+            <point key="canvasLocation" x="2521.739130434783" y="-1187.2767857142856"/>
         </scene>
         <!--Treatments Therapies View Controller-->
         <scene sceneID="O0s-fQ-RSV">
@@ -902,11 +993,11 @@ WHAT CAN YOU DO?
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qfi-BP-bq7">
-                                <rect key="frame" x="20" y="44" width="21" height="29"/>
+                                <rect key="frame" x="20" y="44" width="18" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="arrowshape.turn.up.left.fill" catalog="system"/>
                                 <connections>
-                                    <segue destination="C7e-ck-8Ef" kind="show" id="isy-vU-DrR"/>
+                                    <segue destination="C7e-ck-8Ef" kind="show" id="GRv-gB-Mca"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GMT-JF-nG6">
@@ -914,9 +1005,31 @@ WHAT CAN YOU DO?
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Home"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="NeK-9v-E4v"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="IdE-PO-Jhb"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="35" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tii-hy-FeP">
+                                <rect key="frame" x="20" y="230" width="374" height="611"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Separation Anxiety Disorder
+-most common anxiety disorder seen in youth 
+-fear of being separated from one’s parents or safety figure to the extent that it interferes with child and family’s function
+Generalized Anxiety
+-characterized as being frequently worried about school, friends, health, and safety
+OCD
+-intrusive, unwanted obsessive thoughts or urges that cause distress and anxiety 
+-related compulsions, habits, or behaviors may emerge to temporarily relieve the anxiety, but causes other issues in daily life
+Social Anxiety Disorder
+-more common in adolescence
+-particular events related to social events like meeting new people and public speaking may spark such a circumstance
+Panic Disorder
+-emerges at the latter end of adolescence 
+-characterized with sudden panic attacks which causes these individuals to fear or avoid situations that might trigger these reactions
+</mutableString>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.71443134549999998" green="0.92974191900000003" blue="0.65525907279999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="XoH-IP-IUF"/>
@@ -924,15 +1037,14 @@ WHAT CAN YOU DO?
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="URB-H9-5Gy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1899" y="-557"/>
+            <point key="canvasLocation" x="1898.5507246376812" y="-557.14285714285711"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="l7J-vy-9Tt"/>
-        <segue reference="IkT-jr-BPZ"/>
-        <segue reference="tfO-5k-hK9"/>
-        <segue reference="Ky5-Ek-sSH"/>
-        <segue reference="4Hi-BV-RtH"/>
+        <segue reference="da3-V8-P03"/>
+        <segue reference="qFw-mN-qRu"/>
+        <segue reference="b1v-8o-BdQ"/>
+        <segue reference="HQ3-79-D0x"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2020-08-12 at 3.27.58 PM" width="476" height="960"/>
