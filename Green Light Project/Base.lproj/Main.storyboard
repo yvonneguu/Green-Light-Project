@@ -514,6 +514,9 @@
                                 <rect key="frame" x="339" y="472" width="65" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="More Info"/>
+                                <connections>
+                                    <segue destination="Tvr-b0-6Um" kind="show" id="gHR-MI-2Kz"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OVU-rq-3YL">
                                 <rect key="frame" x="15" y="630" width="384" height="130"/>
@@ -1001,11 +1004,11 @@ seek professional assistance
             <objects>
                 <viewController id="Tvr-b0-6Um" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9dF-cy-2Kf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="types of anxiety" translatesAutoresizingMaskIntoConstraints="NO" id="vJo-ey-RPV">
-                                <rect key="frame" x="0.0" y="44" width="414" height="778"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="778"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qfi-BP-bq7">
@@ -1025,7 +1028,7 @@ seek professional assistance
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="35" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tii-hy-FeP">
-                                <rect key="frame" x="20" y="230" width="374" height="611"/>
+                                <rect key="frame" x="20" y="185" width="374" height="611"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Separation Anxiety Disorder
 -most common anxiety disorder seen in youth 
@@ -1046,10 +1049,19 @@ Panic Disorder
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QFC-7l-Oo5">
+                                <rect key="frame" x="20" y="774" width="46" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="ZDk-GT-ErX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.71443134549999998" green="0.92974191900000003" blue="0.65525907279999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="XoH-IP-IUF"/>
                     </view>
+                    <navigationItem key="navigationItem" id="9mJ-te-wKV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="URB-H9-5Gy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1057,10 +1069,10 @@ Panic Disorder
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="IkT-jr-BPZ"/>
+        <segue reference="GRv-gB-Mca"/>
         <segue reference="qFw-mN-qRu"/>
         <segue reference="b1v-8o-BdQ"/>
-        <segue reference="mbF-Pi-WDN"/>
+        <segue reference="IdE-PO-Jhb"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2020-08-12 at 3.27.58 PM" width="476" height="960"/>
