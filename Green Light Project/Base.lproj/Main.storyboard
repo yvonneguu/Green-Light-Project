@@ -566,7 +566,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="36" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rem-Li-7ER">
                                 <rect key="frame" x="20" y="223" width="374" height="585"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Persistent Depressive Disorder (Dysthymia)
+                                <string key="text">Persistent Depressive Disorder (Dysthymia)
 -depressed mood that lasts for at least 2 years
 -may have episodes of major depression with periods of less severe symptoms
 Postpartum Depression
@@ -582,15 +582,8 @@ Seasonal Affective Disorder
 -characterized by the start of depression during the winter months that returns annually
 -accompanied by social withdrawal, increased sleep, and weight gain
 -depressive state usually lifts during the summer
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="16"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7h-FF-ktf">
-                                <rect key="frame" x="30" y="234" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -619,7 +612,7 @@ Seasonal Affective Disorder
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QmS-UF-ZNd">
                                 <rect key="frame" x="20" y="400" width="374" height="358"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">-feelings of hopelessness or pessimism
+                                <string key="text">-feelings of hopelessness or pessimism
 -constant sad, anxious, or “empty” mood
 -decreased energy with difficulty concentrating, recalling events, or making decisions
 -thoughts of death or suicide, or suicide attempts
@@ -627,7 +620,7 @@ Seasonal Affective Disorder
 -Moving or talking more slowly
 -Feeling restless or having trouble sitting still
 -aches/pains, headaches, cramps, or digestive problems without a clear physical cause and/or that do not ease even with treatment.
-*severity and prominence of symptoms vary from individual to individual*</mutableString>
+*severity and prominence of symptoms vary from individual to individual*</string>
                                 <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -699,13 +692,13 @@ Seasonal Affective Disorder
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vxh-Hk-mYY">
                                 <rect key="frame" x="34" y="228" width="360" height="426"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">-personal or family history of depression                -depression is caused by a combo of genetic biological, environmental, and psychological factors
+                                <string key="text">-personal or family history of depression                -depression is caused by a combo of genetic biological, environmental, and psychological factors
 -depression, can co-occur with other serious medical illnesses, such as diabetes, cancer, heart disease, and parkinson’s disease. 
 -conditions are often worse with depression
 -major life changes, trauma, or stress
 -Adverse life events → (unemployment, bereavement, psychological trauma) 
 -medication side effects may lead to certain physical illnesses
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -758,7 +751,7 @@ Seasonal Affective Disorder
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="37" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LoC-nh-AWR">
                                 <rect key="frame" x="21" y="212" width="357" height="633"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">-Prevention and exercise programs
+                                <string key="text">-Prevention and exercise programs
 -Intervention for parents of children with behavioral problems may improve outcomes for children 
 -Community approach to prevent depression→ school based programs to enhance a pattern of positive thinking in children/adolescence
 -Psychotherapies (talk therapy/counseling)
@@ -773,7 +766,7 @@ WHAT CAN YOU DO?
 -expect your mood to improve gradually not immediately
 -postpone important decisions, until you feel better
 -continue to educate yourself about depression
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -877,7 +870,7 @@ WHAT CAN YOU DO?
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t4q-cn-2xB">
                                 <rect key="frame" x="23" y="270" width="371" height="484"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">-everyone experiences anxiety
+                                <string key="text">-everyone experiences anxiety
 -ex: feeling awkward in a social situation, fear of danger, or  difficulty sleeping after an event
 -anxiety disorder: a condition in which one has significant distress and functional impairment
 -people with anxiety disorders avoid social interaction to prevent self-humiliation, experience panic attacks, and have recurring nightmares or flashbacks.
@@ -885,7 +878,7 @@ WHAT CAN YOU DO?
 -Children with anxiety disorders are more prone to having depression and substance disorders
 -diagnosing and treatment is essential to preventing further complications
 -prolonged anxiety disorders will lead to more severe symptoms 
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1034,7 +1027,7 @@ seek professional assistance
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="35" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tii-hy-FeP">
                                 <rect key="frame" x="20" y="230" width="374" height="611"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Separation Anxiety Disorder
+                                <string key="text">Separation Anxiety Disorder
 -most common anxiety disorder seen in youth 
 -fear of being separated from one’s parents or safety figure to the extent that it interferes with child and family’s function
 Generalized Anxiety
@@ -1048,7 +1041,7 @@ Social Anxiety Disorder
 Panic Disorder
 -emerges at the latter end of adolescence 
 -characterized with sudden panic attacks which causes these individuals to fear or avoid situations that might trigger these reactions
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1064,11 +1057,10 @@ Panic Disorder
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="l7J-vy-9Tt"/>
         <segue reference="IkT-jr-BPZ"/>
         <segue reference="qFw-mN-qRu"/>
         <segue reference="b1v-8o-BdQ"/>
-        <segue reference="FYF-Mg-9nt"/>
+        <segue reference="mbF-Pi-WDN"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2020-08-12 at 3.27.58 PM" width="476" height="960"/>
