@@ -35,7 +35,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v3u-j3-8Ha" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-623.1884057971015" y="-1254.2410714285713"/>
+            <point key="canvasLocation" x="-623" y="-1187"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -95,7 +95,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vht-wV-bCf">
-                                <rect key="frame" x="20" y="501" width="374" height="59"/>
+                                <rect key="frame" x="20" y="496" width="374" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">application, we hope that you and your peers become more comfortable speaking out about these mental illnesses.
 </string>
@@ -125,9 +125,14 @@
                                 <rect key="frame" x="0.0" y="20" width="414" height="804"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-76%-86% of low and middle income countries receive no treatment" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="apQ-dC-FkP">
-                                <rect key="frame" x="20" y="240" width="374" height="48"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iFD-85-FLX">
+                                <rect key="frame" x="20" y="508" width="374" height="154"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">-Is very common in the US 
+-In 2017, 284 million people were affected by anxiety
+-31.9% of adolescents have had any anxiety disorder
+-38% of females have an anxiety disorder, and 26.1% in males
+</string>
                                 <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -162,12 +167,19 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gmq-3e-oEu">
-                                <rect key="frame" x="20" y="100" width="374" height="166"/>
+                                <rect key="frame" x="20" y="103" width="374" height="166"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">-One of the most common mental disorders in the US
 -264 million people affected by depression internationally
 -Approximately 800,000 people die by suicide annually-second leading cause of death for people between the ages of 15 to 29
 </string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-76%-86% of low and middle income countries receive no treatment" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="apQ-dC-FkP">
+                                <rect key="frame" x="20" y="244" width="374" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -180,7 +192,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vXl-zN-H91" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="250.72463768115944" y="-557.14285714285711"/>
+            <point key="canvasLocation" x="4" y="-557"/>
         </scene>
         <!--Depression View Controller-->
         <scene sceneID="f4V-qU-wsB">
@@ -238,8 +250,35 @@
                                 <rect key="frame" x="0.0" y="20" width="414" height="804"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NB7-7r-3y7">
+                                <rect key="frame" x="20" y="468" width="374" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">This focuses on who is more prone to depression due to certain circumstances that are due to genetics, or past history
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iy9-Ws-7Jg">
+                                <rect key="frame" x="21" y="310" width="361" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Again, there are many more symptoms than just this. And it can all differ from person to person. Do not compare yourself to others. As your depression can be very different.
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wl6-Gi-l5e">
+                                <rect key="frame" x="20" y="151" width="370" height="151"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">There are many types of depression, however this app only focuses on a few. Keep in mind that there are also more facets to each type of depression. This only shines light to a few facets.
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6gT-xu-Sg1">
-                                <rect key="frame" x="320" y="220" width="65" height="44"/>
+                                <rect key="frame" x="320" y="244" width="65" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="More Info"/>
                                 <connections>
@@ -247,7 +286,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kfk-hc-a1B">
-                                <rect key="frame" x="320" y="515" width="65" height="45"/>
+                                <rect key="frame" x="320" y="575" width="65" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="More Info"/>
                                 <connections>
@@ -255,7 +294,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PM6-h6-cOb">
-                                <rect key="frame" x="320" y="369" width="65" height="49"/>
+                                <rect key="frame" x="325" y="404" width="65" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="More Info"/>
                                 <connections>
@@ -263,7 +302,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yxr-nt-vvY">
-                                <rect key="frame" x="23" y="20" width="21" height="22"/>
+                                <rect key="frame" x="20" y="20" width="21" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back" image="arrowshape.turn.up.left.fill" catalog="system">
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -280,6 +319,14 @@
                                     <segue destination="oaI-WF-fU8" kind="show" id="gg3-Xn-K2J"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dnm-iD-RDn">
+                                <rect key="frame" x="21" y="628" width="364" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">There are many different types of therapy, and no one treatment will work for everyone. You may need to have different things from your friends, or even your family </string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.71443134549999998" green="0.92974191900000003" blue="0.65525907279999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="LEH-33-FkB"/>
@@ -288,7 +335,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kjC-Eq-H47" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1147.8260869565217" y="-557.14285714285711"/>
+            <point key="canvasLocation" x="630.43478260869574" y="-557.14285714285711"/>
         </scene>
         <!--Question Answer View Controller-->
         <scene sceneID="1NS-Pr-Rgw">
@@ -365,7 +412,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BIe-TZ-S4U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-623.1884057971015" y="130.58035714285714"/>
+            <point key="canvasLocation" x="-623" y="75"/>
         </scene>
         <!--Anxiety View Controller-->
         <scene sceneID="vw4-SL-Any">
@@ -441,7 +488,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dJW-EM-Dog" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="250.72463768115944" y="831.69642857142856"/>
+            <point key="canvasLocation" x="1264" y="-557"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="nL6-xd-WHn">
@@ -472,6 +519,30 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="mbF-Pi-WDN"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="36" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rem-Li-7ER">
+                                <rect key="frame" x="20" y="223" width="374" height="585"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Persistent Depressive Disorder (Dysthymia)
+-depressed mood that lasts for at least 2 years
+-may have episodes of major depression with periods of less severe symptoms
+Postpartum Depression
+-more serious than “baby blues”
+-experience full-blown major depression during pregnancy or after delivery
+-accompanied by the feeling of extreme sadness, anxiety, and  exhaustion 
+Psychotic Depression
+-severe depression + some form of psychosis 
+-characterized by having disturbing false fixed beliefs (delusion)
+-typically regarding guilt, poverty, or illness
+hearing or seeing upsetting circumstances that others cannot hear or see (hallucinations)
+Seasonal Affective Disorder
+-characterized by the start of depression during the winter months that returns annually
+-accompanied by social withdrawal, increased sleep, and weight gain
+-depressive state usually lifts during the summer
+</mutableString>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.70980392160000005" green="0.92941176469999998" blue="0.6705882353" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="MTr-wV-Ahq"/>
@@ -480,7 +551,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ouV-Jy-VqH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1147.8260869565217" y="-1254.2410714285713"/>
+            <point key="canvasLocation" x="1262.3188405797102" y="-1187.2767857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="vO1-ZH-mCX">
@@ -491,9 +562,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="signs and symptoms" translatesAutoresizingMaskIntoConstraints="NO" id="fPi-NG-VLI">
-                                <rect key="frame" x="0.0" y="11" width="414" height="782"/>
+                                <rect key="frame" x="0.0" y="15" width="414" height="782"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QmS-UF-ZNd">
+                                <rect key="frame" x="20" y="400" width="374" height="358"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">-feelings of hopelessness or pessimism
+-constant sad, anxious, or “empty” mood
+-decreased energy with difficulty concentrating, recalling events, or making decisions
+-thoughts of death or suicide, or suicide attempts
+-appetite and/or weight change
+-Moving or talking more slowly
+-Feeling restless or having trouble sitting still
+-aches/pains, headaches, cramps, or digestive problems without a clear physical cause and/or that do not ease even with treatment.
+*severity and prominence of symptoms vary from individual to individual*</mutableString>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5mT-RM-lGi">
                                 <rect key="frame" x="33" y="15" width="21" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -511,6 +598,14 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="6iK-e2-QAY"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dlG-jM-kaC">
+                                <rect key="frame" x="15" y="266" width="384" height="126"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Please keep in mind that these are only a few examples of signs and symptoms, there are so many more. If you believe that you have an anxiety disorder, please check our our FAQ page or contact a proffesional</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.70980392160000005" green="0.92941176469999998" blue="0.6705882353" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="UvL-NQ-F1t"/>
@@ -519,7 +614,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4k5-JD-j57" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1824.6376811594205" y="-1007.1428571428571"/>
+            <point key="canvasLocation" x="25" y="75"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="lOq-iu-zFX">
@@ -550,6 +645,20 @@
                                     <segue destination="GPD-BH-Ar0" kind="show" id="718-qs-Hcg"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vxh-Hk-mYY">
+                                <rect key="frame" x="34" y="228" width="360" height="426"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">-personal or family history of depression                -depression is caused by a combo of genetic biological, environmental, and psychological factors
+-depression, can co-occur with other serious medical illnesses, such as diabetes, cancer, heart disease, and parkinson’s disease. 
+-conditions are often worse with depression
+-major life changes, trauma, or stress
+-Adverse life events → (unemployment, bereavement, psychological trauma) 
+-medication side effects may lead to certain physical illnesses
+</mutableString>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.71443134549999998" green="0.92974191900000003" blue="0.65525907279999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="FyO-pY-9aM"/>
@@ -558,7 +667,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="epw-Yq-XhA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1824.6376811594205" y="-273.21428571428572"/>
+            <point key="canvasLocation" x="630.43478260869574" y="-1187.2767857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="37g-Xr-qNe">
@@ -587,7 +696,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="treatments and therapies" translatesAutoresizingMaskIntoConstraints="NO" id="mFc-5E-u3o">
-                                <rect key="frame" x="0.0" y="20" width="414" height="778"/>
+                                <rect key="frame" x="0.0" y="-14" width="414" height="812"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nua-pZ-cQr">
@@ -595,6 +704,29 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="arrowshape.turn.up.left.fill" catalog="system"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="37" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LoC-nh-AWR">
+                                <rect key="frame" x="21" y="212" width="357" height="633"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">-Prevention and exercise programs
+-Intervention for parents of children with behavioral problems may improve outcomes for children 
+-Community approach to prevent depression→ school based programs to enhance a pattern of positive thinking in children/adolescence
+-Psychotherapies (talk therapy/counseling)
+-Electroconvulsive Therapy(ECT)
+-Brain Stimulation
+-Many side effects, but can be helpful when rapid response is needed, and medications can’t be used safely
+WHAT CAN YOU DO?
+-try to be active and exercise
+-set realistic goals for yourself
+-try to spend time with other people and confide in a trusted friend or relative
+-try not to isolate yourself, and let other help you
+-expect your mood to improve gradually not immediately
+-postpone important decisions, until you feel better
+-continue to educate yourself about depression
+</mutableString>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.71443134549999998" green="0.92974191900000003" blue="0.65525907279999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="adn-mX-I5k"/>
@@ -603,7 +735,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W2Z-SI-IPy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1147.8260869565217" y="105.80357142857143"/>
+            <point key="canvasLocation" x="630.43478260869574" y="75"/>
         </scene>
         <!--Youth View Controller-->
         <scene sceneID="gkK-Ty-zOD">
@@ -641,7 +773,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jp0-Cs-sNx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="251" y="192"/>
+            <point key="canvasLocation" x="1264" y="75"/>
         </scene>
         <!--VsAD View Controller-->
         <scene sceneID="7Oh-dm-69d">
@@ -679,7 +811,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LEg-95-WnB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1079.7101449275362" y="831.69642857142856"/>
+            <point key="canvasLocation" x="1899" y="75"/>
         </scene>
         <!--Risk Factors View Controller-->
         <scene sceneID="Yc1-Uy-Po7">
@@ -717,7 +849,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6eI-b4-eSE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="350.72463768115944" y="1525.4464285714284"/>
+            <point key="canvasLocation" x="2522" y="-1187"/>
         </scene>
         <!--Treatments Therapies View Controller-->
         <scene sceneID="O0s-fQ-RSV">
@@ -755,14 +887,52 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rsw-EX-Olu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-494.20289855072468" y="991.74107142857133"/>
+            <point key="canvasLocation" x="2522" y="-557"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gcG-d9-PbC">
+            <objects>
+                <viewController id="Tvr-b0-6Um" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9dF-cy-2Kf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="types of anxiety" translatesAutoresizingMaskIntoConstraints="NO" id="vJo-ey-RPV">
+                                <rect key="frame" x="0.0" y="44" width="414" height="778"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qfi-BP-bq7">
+                                <rect key="frame" x="20" y="44" width="21" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="arrowshape.turn.up.left.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="C7e-ck-8Ef" kind="show" id="isy-vU-DrR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GMT-JF-nG6">
+                                <rect key="frame" x="20" y="830" width="41" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="NeK-9v-E4v"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.71443134549999998" green="0.92974191900000003" blue="0.65525907279999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="XoH-IP-IUF"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="URB-H9-5Gy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1899" y="-557"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="4Iy-YP-qzV"/>
-        <segue reference="0yz-JX-STD"/>
-        <segue reference="ubR-0e-pKc"/>
-        <segue reference="KQw-Wi-XWz"/>
+        <segue reference="l7J-vy-9Tt"/>
+        <segue reference="IkT-jr-BPZ"/>
+        <segue reference="tfO-5k-hK9"/>
+        <segue reference="Ky5-Ek-sSH"/>
+        <segue reference="4Hi-BV-RtH"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2020-08-12 at 3.27.58 PM" width="476" height="960"/>
@@ -777,6 +947,7 @@
         <image name="risk" width="426" height="866"/>
         <image name="signs and symptoms" width="428" height="864"/>
         <image name="treatments and therapies" width="428" height="866"/>
+        <image name="types of anxiety" width="434" height="864"/>
         <image name="types of depression" width="434" height="872"/>
     </resources>
 </document>
