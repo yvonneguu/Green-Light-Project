@@ -468,6 +468,14 @@
                                     <segue destination="wJW-5E-D29" kind="show" id="gP8-wg-6j3"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcP-3p-Qdd">
+                                <rect key="frame" x="339" y="592" width="65" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="More Info"/>
+                                <connections>
+                                    <segue destination="koc-aq-Idi" kind="show" id="A5E-oh-esq"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NbK-SN-xQ6">
                                 <rect key="frame" x="13" y="503" width="367" height="147"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -495,7 +503,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pt0-Kq-iLm">
-                                <rect key="frame" x="339" y="688" width="65" height="30"/>
+                                <rect key="frame" x="339" y="712" width="65" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="More Info"/>
                                 <connections>
@@ -507,14 +515,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="More Info"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcP-3p-Qdd">
-                                <rect key="frame" x="349" y="594" width="65" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OVU-rq-3YL">
+                                <rect key="frame" x="15" y="630" width="384" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="More Info"/>
-                                <connections>
-                                    <segue destination="koc-aq-Idi" kind="show" id="A5E-oh-esq"/>
-                                </connections>
-                            </button>
+                                <string key="text">The severity of anxiety disorders can be soothed by seeking therapy, medical aid, and more. In addition, doing yoga may ease the tensions one is feeling.
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.71443134549999998" green="0.92974191900000003" blue="0.65525907279999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="8cl-QD-ewy"/>
@@ -954,14 +963,6 @@ WHAT CAN YOU DO?
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="778"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1G-Pd-yvy">
-                                <rect key="frame" x="33" y="12" width="21" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="arrowshape.turn.up.left.fill" catalog="system"/>
-                                <connections>
-                                    <segue destination="C7e-ck-8Ef" kind="show" id="IkT-jr-BPZ"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="770-Zs-OGZ">
                                 <rect key="frame" x="23" y="786" width="67" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -970,6 +971,28 @@ WHAT CAN YOU DO?
                                     <segue destination="BYZ-38-t0r" kind="show" id="FA5-Ln-uvV"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1G-Pd-yvy">
+                                <rect key="frame" x="33" y="12" width="21" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="arrowshape.turn.up.left.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="C7e-ck-8Ef" kind="show" id="IkT-jr-BPZ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n8t-Ki-Xgw">
+                                <rect key="frame" x="20" y="280" width="374" height="355"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">-anxieties listed can be alleviated with cognitive behavioral therapy (CBT)
+seek professional assistance
+-A therapist can be helpful, as they may seem to use “counterintuitive” ideas such as facing their fears
+-This teaches them to confront the things that give them anxiety
+-medication may be implemented depending on the severity of one’s condition
+-serotonin reuptake inhibitor class (ex: fluoxetine or prozac)
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.71443134549999998" green="0.92974191900000003" blue="0.65525907279999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="SGI-fu-5E0"/>
@@ -978,7 +1001,7 @@ WHAT CAN YOU DO?
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rsw-EX-Olu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2522" y="-557"/>
+            <point key="canvasLocation" x="2521.739130434783" y="-557.14285714285711"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gcG-d9-PbC">
@@ -1041,10 +1064,11 @@ Panic Disorder
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="da3-V8-P03"/>
+        <segue reference="l7J-vy-9Tt"/>
+        <segue reference="IkT-jr-BPZ"/>
         <segue reference="qFw-mN-qRu"/>
         <segue reference="b1v-8o-BdQ"/>
-        <segue reference="HQ3-79-D0x"/>
+        <segue reference="FYF-Mg-9nt"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2020-08-12 at 3.27.58 PM" width="476" height="960"/>
